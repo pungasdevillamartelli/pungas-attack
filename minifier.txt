@@ -1,0 +1,21 @@
+// GO TO http://closure-compiler.appspot.com/home
+
+// ==ClosureCompiler==
+// @compilation_level SIMPLE_OPTIMIZATIONS
+// @output_file_name demo.min.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/utils.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/entity-background.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/entity-background-interpolation.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/entity-text-effect.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/entity-logo.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/entity-rotation-balls.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/scene-sequencer.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/scenes.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/font-style.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/intro.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/movement-up.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/ball-wrapper.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/ball-columns.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/webaudio-utils.js
+// @code_url http://gpexplorer.ddns.net/pungas-attack/demoinit.js
+// ==/ClosureCompiler==

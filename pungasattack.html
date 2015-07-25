@@ -1,0 +1,58 @@
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="Pungas Attack">
+		<meta name="description" content="Pungas Attack WebGL demo">
+		<meta name="author" content="PVM^2015">
+		<meta name="keywords" content="WebGL PVM - Pungas Attack">
+		<script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
+		<script type="text/javascript" src="demo.min.js"></script>
+	</head>
+  
+	<body onload="startupDraw()" style="background-color: black">
+		<div>
+			<div id="divTextureCanvas" style="display: none">
+				<canvas id="textureCanvas" width="512" height="512"></canvas>
+				<img id="logo-one-pwr2" src="ansi-one-pwr2.png" width="1024" height="1024">
+				<img id="logo-pvm-pwr2" src="ansi-pvm-pwr2.png" width="512" height="512">
+				<img id="pvm-letter-P" src="pvm_p_256.png" width="256" height="256">
+				<img id="pvm-letter-V" src="pvm_v_256.png" width="256" height="256">
+				<img id="pvm-letter-M" src="pvm_m_256.png" width="256" height="256">
+				<img id="diz-a" src="diz_fedcon.png" width="256" height="256">
+				<img id="diz-b" src="diz_ambush.png" width="256" height="256">
+				<img id="diz-c" src="diz_aquatic.png" width="256" height="256">
+				<img id="diz-d" src="diz_kortatu.png" width="256" height="256">
+				<img id="diz-e" src="diz_jsd.png" width="256" height="256">
+				<img id="diz-f" src="diz_esabb.png" width="256" height="256">
+				<img id="diz-g" src="diz_food.png" width="256" height="256">
+				<img id="diz-h" src="diz_pst.png" width="256" height="256">
+				<img id="diz-i" src="diz_tw.png" width="256" height="256">
+				<img id="diz-j" src="diz_insane.png" width="256" height="256">
+				<img id="diz-k" src="diz_vng.png" width="256" height="256">
+				<img id="diz-l" src="diz_bandido.png" width="256" height="256">
+				<img id="pvm-name-p" src="pungas_log0_1_p.png" width="128" height="128">
+				<img id="pvm-name-u" src="pungas_log0_1_u.png" width="128" height="128">
+				<img id="pvm-name-n" src="pungas_log0_1_n.png" width="128" height="128">
+				<img id="pvm-name-g" src="pungas_log0_1_g.png" width="128" height="128">
+				<img id="pvm-name-a" src="pungas_log0_1_a.png" width="128" height="128">
+				<img id="pvm-name-s" src="pungas_log0_1_s.png" width="128" height="128">
+				<img id="pvm-name-h" src="pungas_log0_2_a.png" width="128" height="128">
+				<img id="pvm-name-t" src="pungas_log0_2_t.png" width="128" height="128">
+				<img id="pvm-name-z" src="pungas_log0_2_t2.png" width="128" height="128">
+				<img id="pvm-name-x" src="pungas_log0_2_a2.png" width="128" height="128">
+				<img id="pvm-name-c" src="pungas_log0_2_c.png" width="128" height="128">
+				<img id="pvm-name-k" src="pungas_log0_2_k.png" width="128" height="128">
+			</div>
+
+			<div id="intro-container" style="padding-top: 60px">
+				<p id="labelClick" style="color: gray">Loading, please wait...</p>
+				<div id="main-div">
+					<canvas id="glCanvas" onclick="toggleFullscreen()"></canvas>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
